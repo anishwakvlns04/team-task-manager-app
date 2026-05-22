@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8080"
+  baseURL: "https://blissful-nature-production-7368.up.railway.app"
 });
 
 export default API;
